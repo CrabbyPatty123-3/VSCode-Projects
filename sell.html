@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Motors</title>
+    <link rel="icon" type="image/x-icon" href="Images/faviconbro.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Garage Wheel Market</div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="sell.html" class="active">Sell Your Car</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-banner">
+            <h1>Sell Your Car</h1>
+        </div>
+
+        <div class="page-content">
+            <div class="sell-container">
+                <div class="sell-info">
+                    <h2>Why Sell With Us?</h2>
+                    <ul class="benefits-list">
+                        <li>✓ Free professional photography</li>
+                        <li>✓ Nationwide buyer network</li>
+                        <li>✓ Secure payment processing</li>
+                        <li>✓ Expert valuation service</li>
+                        <li>✓ Dedicated sales support</li>
+                    </ul>
+                </div>
+
+                <form class="sell-form">
+                    <h2>List Your Vehicle</h2>
+                    
+                    <div class="form-section">
+                        <h3>Vehicle Information</h3>
+                        <div class="form-group">
+                            <label for="make">Make*</label>
+                            <input type="text" id="make" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="model">Model*</label>
+                            <input type="text" id="model" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="year">Year*</label>
+                            <input type="number" id="year" class="form-control" min="1900" max="2024" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mileage">Mileage*</label>
+                            <input type="number" id="mileage" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="price">Asking Price ($)*</label>
+                            <input type="number" id="price" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Vehicle Details</h3>
+                        <div class="form-group">
+                            <label for="condition">Condition*</label>
+                            <select id="condition" class="form-control" required>
+                                <option value="">Select condition</option>
+                                <option value="excellent">Excellent</option>
+                                <option value="good">Good</option>
+                                <option value="fair">Fair</option>
+                                <option value="poor">Poor</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="transmission">Transmission*</label>
+                            <select id="transmission" class="form-control" required>
+                                <option value="">Select transmission</option>
+                                <option value="automatic">Automatic</option>
+                                <option value="manual">Manual</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="description">Description*</label>
+                            <textarea id="description" class="form-control" rows="4" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Photos</h3>
+                        <div class="form-group">
+                            <label for="photos">Upload Photos (up to 10)*</label>
+                            <input type="file" id="photos" class="form-control" multiple accept="image/*" required>
+                            <small>Please upload clear photos of your vehicle from multiple angles</small>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Contact Information</h3>
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone*</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">List My Car</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Luxury Motors is your premier destination for high-end vehicles. We offer the finest selection of luxury cars with exceptional service.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Featured Cars</a></li>
+                        <li><a href="sell.html">Sell Your Car</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>Email: info@luxurymotors.com</li>
+                        <li>Phone: (123) 456-7890</li>
+                        <li>Address: 123 Luxury Lane, Auto City</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxury Motors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
